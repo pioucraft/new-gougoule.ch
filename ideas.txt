@@ -1,0 +1,3 @@
+translations (english, french (german, esperanto ?)), with changes in search for things like wikipedia
+make it more like a stupid google clone and add stupid things
+things to add so i can remove duckduckgo search: reddit search (https://www.reddit.com/search.json?q=), wikipedia search, a stupid ai assistant (like google assistant), 
