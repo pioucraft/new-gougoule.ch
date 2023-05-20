@@ -5,7 +5,6 @@ const cors = require("cors")
 app.use(cors())
 
 const lemonadeMaker = require("./lemonadeMaker")
-const search = require("./search")
 
 function blockIp(req, res, next) {
     if(req.ip == "::ffff:127.0.0.1"){
@@ -20,10 +19,6 @@ app.use(blockIp)
 app.all("/api/add-lemonade/:clicks", lemonadeMaker.rateLimit,(req, res) => {
     lemonadeMaker.addLemonade.push({req, res})
 })
-
-app.all("/api/search-web/:query", search.rateLimit, (req, res) => {
-    search.ddg(req, res)
-});
 
 
 app.listen(port, () => {
