@@ -1,3 +1,3 @@
 translations (english, french (german, esperanto ?)), with changes in search for things like wikipedia
 make it more like a stupid google clone and add stupid things
-things to add so i can remove duckduckgo search: reddit search (https://www.reddit.com/search.json?q=query), wikipedia search (https://en.wikipedia.org/api/rest_v1/page/summary/query), a stupid ai assistant (like google assistant), own search engine (use meta descriptins AND keywords) 
+things to add so i can remove duckduckgo search: wikipedia search (https://en.wikipedia.org/api/rest_v1/page/summary/query), a stupid ai assistant (like google assistant), own search engine (use meta descriptins AND keywords) 
