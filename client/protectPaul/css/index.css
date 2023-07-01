@@ -1,0 +1,104 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+#titles-title {
+    margin-top: 10vh;
+    font-size: 6vh;
+
+}
+
+#titles-subtitle {
+    margin-top: 5vh;
+    font-size: 4.5vh;
+}
+
+#titles-startGame {
+    height: 10vh;
+    width: 25vw;
+    margin-top: 7vh;
+    border-radius: 4vh;
+    border-style: solid;
+    border: none;
+    background-color: yellowgreen;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    font-size: large;
+}
+
+#titles-startGame:hover {
+    box-shadow: rgb(8, 13, 17) 0px 20px 30px -10px;
+    cursor: pointer;
+    height: 11vh;
+    width: 26vw;
+}
+
+#theGame {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#theGame-talkBox {
+    padding: 2vh;
+    border-style: solid;
+    border-color:deepskyblue;
+    background-color: aqua;
+    border-radius: 2vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    visibility: hidden;
+}
+
+#theGame-talkBox-message {
+    font-size: large;
+}
+
+#theGame-talkBox-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.theGame-talkBox-button {
+    padding: 1.5vh;
+    font-size: medium;
+    background-color: beige;
+    border-radius: 1vh;
+    border: rgb(250, 222, 206);
+    margin: 0.3svw;
+}
+
+.theGame-talkBox-button:hover {
+    cursor: pointer;
+    transform: translateY(-0.25em);
+    box-shadow: 0 0.5em 0.5em -0.4em;
+}
+
+#theGame-Paul {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 50vh;
+    margin-top: 15vh;
+}
+
+#theGame-Paul-image {
+    height: 100%;
+}
+
+#monster {
+    visibility: hidden;
+    position: fixed;
+    height: 25vh;
+    transform: translate(15vw, -25vh);
+} 

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protect Paul</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div id="titles">
+        <h1 id="titles-title">In this game, you have to protect an egg. The egg is called Paul.</h1>
+        <h2 id="titles-subtitle">If Paul dies, you die.</h2>
+        <button id="titles-startGame" onclick="startGame()">Start the game</button>
+    </div>
+    <div id="theGame">
+        <div id="theGame-talkBox"></div>
+
+        <button id="theGame-Paul" onclick="breakPaul('Do not touch Paul. Now, he\'s dead')">
+            <img src="images/Paul.png" alt="Paul the egg" id="theGame-Paul-image">
+        </button>
+    </div>
+    <img src="" alt="a monster" id="monster">
+</body>
+</html>
